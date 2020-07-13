@@ -13,12 +13,12 @@ presskit_download_link:
 app_icon: assets/appicon.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: Atlas - Injection Tracker # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price: Free (Closed Beta) # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description: A mobile application project that allows researchers to track outcomes of spinal injections longitudinally.
+app_description: A mobile application project started at UCSF that allows researchers to track outcomes of spinal injections longitudinally.
 
 enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
 # Information About Yourself
-your_name: Atlas Project at UCSF
+your_name: UCSF Atlas
 your_link:
 your_city: San Francisco, CA
 email_address: ucsf.atlasapp@gmail.com
@@ -36,15 +36,15 @@ features:
 
   - title: Reschedule surveys
     description: Either take the surveys at the intended time or 5-10 minutes whenever it is convenient.
-    fontawesome_icon_name: calendar
+    fontawesome_icon_name: star
 
   - title: Chat with your researcher
     description: Realtime chat that enables you to speak with your researcher about any issues.
-    fontawesome_icon_name: telegram
+    fontawesome_icon_name: mobile
 
   - title: Clean progress tracker
     description: View pain scores graphed over time in a simple and clean visual.
-    fontawesome_icon_name: line-chart
+    fontawesome_icon_name: play-circle
 
   - title: Keep local data even when logged out
     description: Pain scores remain on device unless the app is deleted.
@@ -56,11 +56,11 @@ features:
 
   - title: Suggestion Box
     description: Experiencing a persisting issue? Want to suggest a feature? Open an issue in the feedback box (located in settings).
-    fontawesome_icon_name: bug
+    fontawesome_icon_name: arrow-alt-circle-down
 
   - title: Built with native UIKit
     description: Written in 100% Swift and is built to support both iPhone and iPad.
-    fontawesome_icon_name: mobile
+    fontawesome_icon_name: link
 
   - title: Frequent updates and improvement
     description: We are working to make the app better every iteration, however, do expect bugs in the closed beta.
@@ -121,5 +121,3 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
-
-theme: jekyll-theme-cayman
