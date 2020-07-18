@@ -1,7 +1,3 @@
----
-# Front matter comment to ensure Jekyll properly reads file.
----
-
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -11,12 +7,13 @@
     <div class="headerBackground subPageHeaderBackground">
         <div class="container subPageContainer">
             {% include header.html %}
-            <article class="page markdown-body">
-                {{ content }}
-            </article>
+            <blockquote class="trello-board-compact">
+                <a href="https://trello.com/b/ToYwTGn2/atlas">Trello Board</a>
+            </blockquote>
         </div>
         {% include appstoreimages.html %}
     </div>
+    <script src="https://p.trellocdn.com/embed.min.js"></script>
 </body>
 
 </html>
